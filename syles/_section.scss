@@ -1,0 +1,9 @@
+.main-container {
+  width: 50%;
+  margin: 20px auto;
+  height: 95vh;
+  background: $mainContainerBgd;
+  border: 2px solid black;
+  border-radius: 10px;
+  @include flexCenter;
+}

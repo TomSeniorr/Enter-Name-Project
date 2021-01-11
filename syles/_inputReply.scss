@@ -1,0 +1,9 @@
+.inputreply {
+  @include flexCenter;
+  @include div;
+  background: $bgd;
+  height: 20vh;
+}
+.inputreply p {
+  @include defaultText;
+}

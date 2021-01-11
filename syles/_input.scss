@@ -1,0 +1,31 @@
+.test {
+  @include flexCenter;
+  @include div;
+  height: 30vh;
+  background: $bgd;
+}
+
+.input {
+  @include defaultGap;
+  width: 30%;
+  width: 25%;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.sub {
+  background-color: $btnBgd;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  @include defaultgap;
+}
+
+.test p {
+  @include defaultText;
+  @include defaultgap;
+}

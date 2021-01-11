@@ -1,0 +1,7 @@
+.header {
+  height: 20vh;
+  background: $bgd;
+  @include div;
+  @include flexCenter;
+  @include defaultText;
+}
